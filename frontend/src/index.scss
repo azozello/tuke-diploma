@@ -1,0 +1,26 @@
+@import "./styles/inputs";
+@import "./styles/classes";
+@import "./styles/buttons";
+@import "./styles/variables";
+@import "./styles/typography";
+@import "./styles/animations";
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url("static/fonts/Montserrat-Regular.ttf") format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-size: 16px;
+  font-family: Montserrat;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

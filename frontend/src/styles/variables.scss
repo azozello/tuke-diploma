@@ -1,0 +1,13 @@
+html {
+  --Purple: #442B69;
+  --Blue: #3F718C;
+  --Green: #57AE81;
+  --Yellow: #E8E350;
+  --White: #fff;
+  --Red: #cc3300;
+}
+
+:root {
+  --text: var(--White);
+  --error: var(--Red);
+}

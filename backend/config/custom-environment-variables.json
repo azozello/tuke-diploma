@@ -1,0 +1,4 @@
+{
+  "jwtSecret": "JWT_SECRET",
+  "testPassword": "TEST_PASSWORD"
+}

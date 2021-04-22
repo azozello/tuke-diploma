@@ -1,0 +1,16 @@
+.glass-card {
+  padding: 1em;
+
+  border-radius: 2.5em;
+
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+.background-gradient {
+  min-height: 100vh;
+
+  background: linear-gradient(106.03deg, var(--Purple) -3.18%, var(--Blue) 33.2%, var(--Green) 72.9%, var(--Green) 102.67%);
+  background-size: 300% 300%;
+  animation: background-gradient 15s ease infinite;
+}

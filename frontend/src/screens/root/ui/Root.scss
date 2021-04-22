@@ -1,0 +1,28 @@
+.root {
+  width: 100vw;
+  height: 100vh;
+
+  margin: 0;
+
+  padding: 2em;
+
+  background: linear-gradient(106.03deg, #442B69 -3.18%, #3F718C 33.2%, #57AE81 72.9%, #E8E350 102.67%);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

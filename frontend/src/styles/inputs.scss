@@ -1,0 +1,25 @@
+.base-input {
+  padding: 0.75em;
+
+  font-weight: 500;
+  font-size: 1.125em;
+
+  letter-spacing: 0.1em;
+  text-align: center;
+
+  color: var(--White);
+  background: rgba(255, 255, 255, 0.15);
+
+  border-radius: 48px;
+  border: none;
+
+  outline: none;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.base-input_error {
+  background-color: rgba(204, 51, 0, 0.2);
+}

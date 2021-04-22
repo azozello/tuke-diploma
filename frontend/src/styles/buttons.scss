@@ -1,0 +1,38 @@
+.base-button {
+  margin: 0;
+
+  padding: 0.75em;
+
+  background-color: transparent;
+  color: var(--White);
+
+  font-weight: 500;
+  font-size: 1.125em;
+
+  letter-spacing: 0.05em;
+
+  border-radius: 3em;
+
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  outline: none;
+  text-decoration: none;
+
+  perspective: 1000px;
+  transition: all 300ms ease;
+
+  &:hover {
+    box-shadow: 0 0 4px 1px rgba(10, 10, 10, 0.25);
+  }
+
+  &:active {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}
+.base-button_full-width {
+  width: 100%;
+}
+.base-button_transparent {
+  color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
