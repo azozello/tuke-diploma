@@ -43,13 +43,15 @@ const Login: React.FC = () => {
                 onSubmit={onFormSubmit}
             >
                 {() => (
-                    <Form className="login-card">
+                    <Form className={`login-card ${isError ? 'login-card_bounce' : ''}`}>
                         <p className="text title">Your TUKE credentials</p>
 
                         <Field name={'username'}>
                             {({ field }: any) => (
                                 <input
-                                    className={`base-input ${isError ? 'base-input_error' : ''}`}
+                                    className={`base-input ${
+                                        isError ? 'base-input_error base-input_error_bounce' : ''
+                                    }`}
                                     type="text"
                                     placeholder={'dp330zm'}
                                     {...field}
@@ -60,7 +62,9 @@ const Login: React.FC = () => {
                         <Field name={'password'}>
                             {({ field }: any) => (
                                 <input
-                                    className={`base-input ${isError ? 'base-input_error' : ''}`}
+                                    className={`base-input ${
+                                        isError ? 'base-input_error base-input_error_bounce' : ''
+                                    }`}
                                     name="password"
                                     type="password"
                                     placeholder={'password'}
